@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="TelemetryClient/TelemetryClient.csproj" />
+  <Project Path="TelemetryServer/TelemetryServer.csproj" />
+  <Project Path="TelemetryShared/TelemetryShared.csproj" />
+</Solution>
