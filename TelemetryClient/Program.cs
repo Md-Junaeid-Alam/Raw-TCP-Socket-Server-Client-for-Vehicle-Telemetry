@@ -1,6 +1,10 @@
 ﻿using System.Net.Sockets;
 using TelemetryShared;
 
+string vehicleId = args.Length > 0 ? args[0] : "vehicle-001";
+
+Console.WriteLine($"Starting simulator for {vehicleId}...");
+
 using var client = new TcpClient();
 await client.ConnectAsync("127.0.0.1", 5000);
 Console.WriteLine("Connected to server.");
@@ -16,7 +20,7 @@ while (true)
 
     var telemetry = new VehicleTelemetry
     {
-        VehicleId = "vehicle-001",
+        VehicleId = vehicleId,
         Latitude = lat,
         Longitude = lon,
         SpeedKph = random.Next(20, 90),

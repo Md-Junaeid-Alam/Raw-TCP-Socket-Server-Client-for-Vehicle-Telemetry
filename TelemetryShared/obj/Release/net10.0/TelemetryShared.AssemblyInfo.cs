@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TelemetryShared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+057e8cb656c46f9f4c5b75505561cac06753766d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28a7c54abf125de6afa01a2c171ce72d0abeda08")]
 [assembly: System.Reflection.AssemblyProductAttribute("TelemetryShared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TelemetryShared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
