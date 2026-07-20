@@ -1,4 +1,4 @@
-# Raw-TCP-Socket-Server-Client-for-Vehicle-Telemetry
+# Raw-TCP-Socket-Server-Client-for-Multiple-Vehicle-Telemetry
 Raw TCP Socket Server &amp; Client for Vehicle Telemetry (no MQTT, no framework)
 
 A from-scratch TCP socket server and client built in C#/.NET, simulating a vehicle telemetry ingestion pipeline without relying on any messaging framework (no MQTT, no SignalR, no HTTP). The goal of this project is to understand what libraries like MQTTnet and SignalR are doing under the hood — connection handling, message framing, and concurrency — by implementing it manually with `System.Net.Sockets`.
@@ -119,6 +119,12 @@ Disconnecting a client mid-stream (Ctrl+C) is also handled cleanly — the serve
 - Correct handling of partial reads and mid-stream disconnects
 - Concurrent connection handling using async, per-connection tasks
 - A clean multi-project .NET solution structure (server / client / shared library)
+
+## Live Demo
+  
+<img width="800" height="404" alt="Image" src="https://github.com/user-attachments/assets/ede0a779-a7ec-459b-bf2e-eab265a5ee4e" />
+
+> Real-time V2X telemetry from multiple vehicles flowing through 
 
 ## Related Projects
 
